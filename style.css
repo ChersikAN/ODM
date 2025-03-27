@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Onest:wght@100..900&display=swap');
+
+body {
+    margin: 0;
+}
+
+a, body, h1, p {
+    font-family: "Onest", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+} 
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.background {
+    background-color: #EAE5FF;
+    height: 139px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+a {
+    margin-left: 52px;
+    text-decoration: none;
+    color: black;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+#cover {
+    background-image: url(Photoes/cover.png);
+    height: 652px;
+    display: flex;
+    align-items: center;
+}
+
+
+.cover-content h1 {
+    font-size: 64px;
+    font-weight: 500;
+}
+
+.cover-content p {
+    font-size: 48px;
+    font-weight: 400;
+}
+
+.cover-content .buttom {
+    font-size: 56px;
+    font-weight: 400; 
+}
+
+.buttom {
+    background-color: #A6A0BF;
+    color: white;
+    height: 98px;
+    width: 590px;
+    border-radius: 82px;
+    display: flex;
+    
+}
+
+.buttom p {
+    font-family: "Onest", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 56px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.about-as-content {
+    display: flex;
+}
