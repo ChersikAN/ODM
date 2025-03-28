@@ -152,6 +152,9 @@ a {
     width: 255px;
     height: 274px;
     background-color: #EFEDFE;
+    border-radius: 17px;
+
+
 }
 
 hr {
@@ -163,6 +166,36 @@ hr {
     font-optical-sizing: auto;
     font-style: normal;
     font-weight: 400;
-    font-style: 10px;
+    font-size: 30px;
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+
+.card button {
+    width: 234px;
+    height: 46px;
+    background-color: #A6A0BF;
+    border-radius: 50px;
+    border: 0;
+    color: white;
+    font-size: 27px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card button:hover {
+    background-color: #6A628F;
+}
+
+.text-catalog-23 {
+    font-weight: 400;
+    font-size: 23px;
+    color: #130F79;
+}
+
+.text-catalog-23 b {
+    font-weight: 400;
+    color: #6A56C3;
 }
 
