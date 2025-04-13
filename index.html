@@ -12,12 +12,13 @@
 <body>
     <div class="background">
         <header class="container">
-            <img src="/Photoes/icon.png" alt="logo">
+            <a href="#cover">
+                <img src="/Photoes/logo/icon.png" alt="logo"></a>
             <nav>
-                <a href="">Главная</a>
-                <a href="">О нас</a>
-                <a href="">Курсы</a>
-                <a href="">Контакты</a>
+                <a href="#cover">Главная</a>
+                <a href="#about-as">О нас</a>
+                <a href="#catalog">Курсы</a>
+                <a href="#contacts">Контакты</a>
             </nav>
         </header>
     </div>
@@ -27,15 +28,10 @@
             <div class="cover-content container">
                 <h1>Курсы по английскому языку<br>для детей и подростков</h1>
                 <p>Поможем выучить язык для<br>ваших целей</p>
-                <div class="buttom">
-                    <p>Записаться на курс</p>
-                </div>
+                <button>Записаться на курс</button>
             </div>
         </section>
-
-
-
-        <section id="form-firsdt-classes">
+        <section id="form-first-classes">
             <div class="container cell">
                 <div class="colum">
                     <div class="cell1">
@@ -52,21 +48,17 @@
                     <p>Запишитесь на бесплатное пробное занятие</p>
                     <form>
                         <p><input value="" placeholder="Введите имя" class="input"></p>
-                        <p>Введите имя</p>
                     </form>
                     <form>
                         <p><input value="" placeholder="Введите почту" class="input"></p>
-                        <p>Введите почту</p>
                     </form>
                     <form>
                         <p><input value="" placeholder="Введите телефон" class="input"></p>
-                        <p>Введите телефон</p>
                     </form>
+                    <button>Отправить</button>
                 </div>
             </div>
         </section>
-
-
         <section id="about-as">
             <div class="container about-as-content">
                 <h2>О нас</h2>
@@ -82,18 +74,18 @@
             <div class="container">
                 <h4>Вот на что мы опираемся для создания наших курсов:</h4>
                 <div class="about-as-blocks">
-                    <div class="about-as-block">
+                    <div class="about-as-block about-as-block1">
                         <div class="header-block-about-as">
-                            <img src="/Photoes/SupportingElement1.png" alt="">
+                            <img src="/Photoes/SupportingElement/SupportingElement1.png" alt="">
                             <p>Обучаем английскому<br>с комфортом</p>
                         </div>
                         <p>Наши материалы всегда<br>под рукой, на любом<br>гаджете</p>
                     </div>
                 </div>
                 <div class="about-as-blocks">
-                    <div class="about-as-block">
+                    <div class="about-as-block about-as-block2">
                         <div class="header-block-about-as">
-                            <img src="/Photoes/SupportingElement2.png" alt="">
+                            <img src="/Photoes/SupportingElement/SupportingElement2.png" alt="">
                             <p>Занятия с<br>педагогами-<br>билингвами</p>
                         </div>
                         <p>Они отлично знают<br>английский и русский, что<br>позволяет им доступно<br>объяснять материал
@@ -101,9 +93,9 @@
                     </div>
                 </div>
                 <div class="about-as-blocks">
-                    <div class="about-as-block">
+                    <div class="about-as-block about-as-block3">
                         <div class="header-block-about-as">
-                            <img src="/Photoes/SupportingElement3.png" alt="">
+                            <img src="/Photoes/SupportingElement/SupportingElement3.png" alt="">
                             <p>Современный<br>подход к<br>английскому</p>
                         </div>
                         <p>Обучаем без зубрежки,<br>изучаем только самое<br>необходимое для обучения<br>языку</p>
@@ -155,6 +147,8 @@
                     </div>
                     <div class="cards">
                         <div class="card">
+                            <p class="text-catalog-30">4 урока</p>
+                            <hr>
                             <p class="text-catalog-30"><b>Цена пакета:</b><br>3500₽</p>
                             <p class="text-catalog-23"><b>850₽</b> за одно занятие</p>
                             <button>Записаться</button>
@@ -227,9 +221,38 @@
                 <input value="" placeholder="Введите имя" class="input">
                 <input value="" placeholder="Введите телефон" class="input">
                 <input value="" placeholder="Введите почту" class="input">
-                <button>Отправить</button>
             </form>
-
+            <button>Отправить</button>
+        </section>
+        <section id="contacts">
+            <div class="container">
+                <h1>Контакты</h1>
+                <div class="contacts">
+                    <div class="contacts-logo">
+                        <img src="/Photoes/logo/icon.png" alt="logo">
+                    </div>
+                    <div class="contacts-info">
+                        <div class="contacts-info-phone">
+                           <img src="/Photoes/caontacts-icon/contacts-icon-phone.png" alt="phone">
+                           <p>+7 (916) 454-45-21</p>
+                        </div>
+                        <div class="contacts-info-email">
+                            <img src="/Photoes/caontacts-icon/contacts-icon-email.png" alt="email">
+                            <p>ABCenglish@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contacts-social-networks">
+                        <div class="contacts-social-network-column1">
+                            <img src="/Photoes/caontacts-icon/contacts-icon-twiter.png" alt="twiter">
+                            <img src="/Photoes/caontacts-icon/contacts-icon-WhatsApp.png" alt="WhatsApp">
+                        </div>
+                        <div class="contacts-social-network-column2">
+                            <img src="/Photoes/caontacts-icon/contacts-icon-telegram.png" alt="telegram">
+                            <img src="/Photoes/caontacts-icon/contacts-icon-vk.png" alt="vk">
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
     </main>
 </body>

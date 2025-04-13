@@ -34,12 +34,18 @@ header {
 }
 
 a {
-    margin-left: 52px;
+    margin-left: 45px;
     text-decoration: none;
     color: black;
     font-size: 40px;
     font-weight: 400;
 }
+
+
+
+
+
+
 
 #cover {
     background-image: url(Photoes/dddddd.png);
@@ -62,12 +68,7 @@ a {
     margin-top: 0;
 }
 
-.cover-content .buttom {
-    font-size: 56px;
-    font-weight: 400;
-}
-
-.buttom {
+.cover-content button {
     background-color: #A6A0BF;
     color: white;
     height: 98px;
@@ -76,50 +77,19 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
-
+    font-size: 56px;
+    font-weight: 400;
+    border: none;
+    padding: 0;
 }
 
-.buttom:hover {
+.cover-content button:hover {
     background-color: #6A628F;
 }
 
-.buttom p {
-    font-weight: 300;
-    font-size: 56px;
-    margin: 0;
-    padding: 0;
 
-}
 
-.about-as-content h2 {
-    font-size: 60px;
-    font-weight: 400;
-}
 
-.text-about {
-    background-color: #F9F8FF;
-    width: 684px;
-    height: 341px;
-    font-size: 35px;
-    font-weight: 400;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 50px;
-    margin-left: 40px;
-}
-
-.about-as-text {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center
-}
-
-.about-as-text img {
-    width: 388.75px;
-    height: 311px;
-}
 
 .cell1 {
     background-color: #F5F4FA;
@@ -197,12 +167,15 @@ a {
     text-align: left;
     border: 0;
     color: #2b2b2b;
+    margin: 15px;
 }
 
 input:focus {
     color: #2b2b2b;
     outline: #9992a1 3px solid;
 }
+
+
 
 
 
@@ -233,15 +206,78 @@ input:focus {
     width: 1141px;
 }
 
+.cell3 button {
+
+    width: 394px;
+    height: 60px;
+    background-color: #A6A0BF;
+    border-radius: 35px;
+    border: 0;
+    color: white;
+    font-size: 27px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cell3 button:hover {
+    background-color: #6A628F;
+}
+
+
+
+
+
+.about-as-content h2 {
+    font-size: 60px;
+    font-weight: 400;
+}
+
+.text-about {
+    background-color: #F9F8FF;
+    width: 684px;
+    height: 341px;
+    font-size: 35px;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    margin-left: 40px;
+}
+
+.about-as-text {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.about-as-text img {
+    width: 388.75px;
+    height: 311px;
+}
+
+
+
+
+#about-as .container h4 {
+    font-size: 35px;
+    font-weight: 400;
+}
+
+
 .about-as-blocks {
-    display: inline-block;
-    float: left;
+    text-align: justify;
     margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    float: left;
 }
 
 .about-as-block {
     background-color: #F9F8FF;
-    width: 360px;
+    width: 340px;
     height: 290px;
     font-size: 24px;
     font-weight: 400;
@@ -249,7 +285,7 @@ input:focus {
     display: flex;
     align-items: left;
     flex-direction: column;
-
+    padding-bottom: 10px;
 }
 
 .header-block-about-as {
@@ -269,6 +305,26 @@ input:focus {
     width: 100px;
     height: 100px;
 }
+
+.about-as-block1 {
+    border: #D9D9D9 15px solid;
+    border-right: #D9D9D9 7.5px solid;
+    border-radius: 57px 0px 0px 57px;
+}
+
+.about-as-block2 {
+    border: #D9D9D9 15px solid;
+    border-right: #D9D9D9 7.5px solid;
+    border-left: #D9D9D9 7.5px solid;
+}
+
+.about-as-block3 {
+    border: #D9D9D9 15px solid;
+    border-left: #D9D9D9 7.5px solid;
+    border-radius: 0px 57px 57px 0px;
+}
+
+
 
 .card {
     text-align: center;
@@ -369,9 +425,13 @@ form .input {
     margin-bottom: 40px;
 }
 
+
+
+
+
 #form-quastion {
     background-color: #EFEDFE;
-    height: 1000px;
+    height: 680px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -385,21 +445,90 @@ form .input {
 
 #form-quastion form input {
     width: 504px;
-    height: 102px;
+    height: 85px;
     border-radius: 35px;
     border: none;
-    margin: 10px;
+    text-align: left;
+    color: #2b2b2b;
+    margin-bottom: 15px;
 }
 
-#form-quastion form button {
+#form-quastion  button {
     width: 504px;
-    height: 102px;
+    height: 90px;
     background-color: #CFCCDD;
-
+    border: 0;
+    border-radius: 35px;
+    font-size: 40px;
+    font-weight: 400;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
 }
 
 .form-quastion-Subtitle {
     font-size: 40px;
     font-weight: 300;
     text-align: center;
+}
+
+
+#form-quastion button:hover {
+    background-color: #6A628F;
+}
+
+
+
+
+#contacts {
+    background-color: #F9F9F9;
+    height: 343px;
+    border-top: #CACACA 3px solid;
+}
+
+#contacts h1 {
+    font-size: 60px;
+    font-weight: 400;
+}
+
+.contacts-info-phone {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.contacts-info-email {
+    display: flex;
+    align-items: center;
+}
+
+.contacts-social-network-column1 {
+    display: flex;
+}
+
+.contacts-social-network-column2 {
+    display: flex;
+}
+
+.contacts {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contacts-info p {
+    font-size: 40px;
+    font-weight: 300;
+    margin: 0;
+}
+
+.contacts-info-phone img {
+    width: 72px;
+    height: 55px;
+}
+
+.contacts-info-email img {
+    width: 72px;
+    height: 55px;
 }
