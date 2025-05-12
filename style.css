@@ -72,7 +72,7 @@ a {
     background-color: #A6A0BF;
     color: white;
     height: 98px;
-    width: 590px;
+    width: 550px;
     border-radius: 82px;
     display: flex;
     align-items: center;
@@ -91,7 +91,7 @@ a {
 
 
 
-.cell1 {
+.form-heading {
     background-color: #F5F4FA;
     width: 640px;
     height: 199px;
@@ -107,7 +107,7 @@ a {
 
 }
 
-.cell2 h5 {
+.form-about-us h5 {
     font-size: 40px;
     font-weight: 400;
     margin: 0;
@@ -115,14 +115,14 @@ a {
 
 }
 
-.cell2 p {
+.form-about-us p {
     font-size: 35px;
     font-weight: 300;
     margin-top: 10px;
     margin-bottom: 0;
 }
 
-.cell2 {
+.form-about-us {
     background-color: #F9F8FF;
     width: 640px;
     height: 507px;
@@ -137,7 +137,7 @@ a {
 
 }
 
-.cell3 {
+.form-sign-up {
     background-color: #EAE9F2;
     width: 455px;
     height: 721px;
@@ -156,11 +156,11 @@ a {
 }
 
 
-.cell form input p {
+.form-first-classes form input p {
     margin: 0;
 }
 
-.cell form input {
+.form-first-classes form input {
     width: 394px;
     height: 60px;
     border-radius: 35px;
@@ -179,18 +179,18 @@ input:focus {
 
 
 
-.cell3 form {
+.form-sign-up form {
     font-weight: 400;
     font-size: 30px;
     text-align: left;
     margin-bottom: 0px;
 }
 
-.cell3 p {
+.form-sign-up p {
     margin-bottom: 20px;
 }
 
-.cell3 form p {
+.form-sign-up form p {
     margin-bottom: 35px;
     margin-top: 0px;
 }
@@ -200,13 +200,13 @@ input:focus {
     flex-direction: column;
 }
 
-.cell {
+.form-first-classes {
     display: flex;
     justify-content: center;
     width: 1141px;
 }
 
-.cell3 button {
+.form-sign-up button {
 
     width: 394px;
     height: 60px;
@@ -220,7 +220,7 @@ input:focus {
     justify-content: center;
 }
 
-.cell3 button:hover {
+.form-sign-up button:hover {
     background-color: #6A628F;
 }
 
